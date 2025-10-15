@@ -4,7 +4,7 @@ import Logo from './Logo';
 import Menu from './Menu';
 import Avatar from './Ui/Avatar';
 import Search from './Ui/Search';
-import Upload from './Ui/Upload';
+import Button from './Ui/Button';
 import { LuUpload } from "react-icons/lu";
 const Header = () => {
     return (
@@ -20,7 +20,7 @@ const Header = () => {
         <Link text="Apply Now" link="#"/>
        <Search/>
        <Avatar/>
-       <Upload text="Upload" icon={<LuUpload />}/>
+       <Button text="Upload" icon={<LuUpload />}/>
       </section>
     </header>
     </main>
