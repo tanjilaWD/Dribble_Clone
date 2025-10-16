@@ -16,8 +16,8 @@ const Header = () => {
          <Menu/>
       </section>
 
-      <section className='flex gap-4 items-center '>
-        <Link text="Apply Now" link="#"/>
+      <section className='flex gap-4 items-center'>
+        <Link text="Apply Now" link="#" />
        <Search/>
        <Avatar/>
        <Button text="Upload" icon={<LuUpload />}/>
