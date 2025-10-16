@@ -5,6 +5,7 @@ const PortfolioCard = ({
     imageUrl,
     teamImageUrl,
     teamName,
+    teamText,
     LoveCount,
     ViewCount
 }) => {
@@ -16,6 +17,7 @@ const PortfolioCard = ({
             <div className="flex gap-2 items-center">
             <img src={teamImageUrl} alt="Team Image" />
             <h3 className="font-bold">{teamName}</h3>
+            <img src={teamText} alt="" />
             </div>
             <div className="flex gap-4">
             <div className="flex items-center gap-2">

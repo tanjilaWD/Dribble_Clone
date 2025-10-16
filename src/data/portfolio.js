@@ -3,6 +3,7 @@ const portfolios = [
          imageUrl: "/image/portfolio/card1.png ",
          teamImageUrl: "/image/icon/icon1.png ",
          teamName: "Ever",
+         teamText: "/image/text/text.png",
          LoveCount: 120,
          ViewCount: "1.4k"
 
@@ -11,6 +12,7 @@ const portfolios = [
          imageUrl: "/image/portfolio/card2.png ",
          teamImageUrl: "/image/icon/icon2.png ",
          teamName: "Ever",
+         teamText: "/image/text/text.png",
          LoveCount: 160,
          ViewCount: "1.7k"
 
@@ -19,6 +21,7 @@ const portfolios = [
          imageUrl: "/image/portfolio/card3.png ",
          teamImageUrl: "/image/icon/icon3.png ",
          teamName: "Ever",
+         teamText: "/image/text/text.png",
          LoveCount: 340,
          ViewCount: "2.4k"
 
@@ -27,6 +30,7 @@ const portfolios = [
          imageUrl: "/image/portfolio/card4.png ",
          teamImageUrl: "/image/icon/icon4.png ",
          teamName: "Ever",
+         teamText: "/image/text/text.png",
          LoveCount: 100,
          ViewCount: "1.1k"
 
@@ -35,6 +39,7 @@ const portfolios = [
          imageUrl: "/image/portfolio/card5.png ",
          teamImageUrl: "/image/icon/icon5.png ",
          teamName: "Ever",
+         teamText: "/image/text/text.png",
          LoveCount: 820,
          ViewCount: "2.3k"
 
@@ -43,6 +48,7 @@ const portfolios = [
          imageUrl: "/image/portfolio/card6.png ",
          teamImageUrl: "/image/icon/icon6.png ",
          teamName: "Ever",
+         teamText: "/image/text/text.png",
          LoveCount: 350,
          ViewCount: "1.6k"
 
@@ -51,6 +57,7 @@ const portfolios = [
          imageUrl: "/image/portfolio/card7.png ",
          teamImageUrl: "/image/icon/icon7.png ",
          teamName: "Ever",
+         teamText: "/image/text/text.png",
          LoveCount: 500,
          ViewCount: "3.1k"
 
@@ -59,6 +66,7 @@ const portfolios = [
          imageUrl: "/image/portfolio/card8.png ",
          teamImageUrl: "/image/icon/icon8.png ",
          teamName: "Ever",
+         teamText: "/image/text/text.png",
          LoveCount: 240,
          ViewCount: "1.3k"
 
@@ -67,6 +75,7 @@ const portfolios = [
          imageUrl: "/image/portfolio/card9.png ",
          teamImageUrl: "/image/icon/icon9.png ",
          teamName: "Ever",
+         teamText: "/image/text/text.png",
          LoveCount: 324,
          ViewCount: "1.5k"
 
@@ -75,6 +84,7 @@ const portfolios = [
          imageUrl: "/image/portfolio/card10.png ",
          teamImageUrl: "/image/icon/icon10.png ",
          teamName: "Ever",
+         teamText: "/image/text/text.png",
          LoveCount: 780,
          ViewCount: "5.4k"
 
@@ -83,6 +93,7 @@ const portfolios = [
          imageUrl: "/image/portfolio/card11.png ",
          teamImageUrl: "/image/icon/icon11.png ",
          teamName: "Ever",
+         teamText: "/image/text/text.png",
          LoveCount: 250,
          ViewCount: "1.9k"
 
@@ -91,6 +102,7 @@ const portfolios = [
          imageUrl: "/image/portfolio/card12.png ",
          teamImageUrl: " /image/icon/icon12.png",
          teamName: "Ever",
+         teamText: "/image/text/text.png",
          LoveCount: 520,
          ViewCount: "2.4k"
 
@@ -99,6 +111,7 @@ const portfolios = [
          imageUrl: " /image/portfolio/card13.png",
          teamImageUrl: "/image/icon/icon13.png ",
          teamName: "Ever",
+         teamText: "/image/text/text.png",
          LoveCount: 220,
          ViewCount: "1.7k"
 
@@ -107,6 +120,7 @@ const portfolios = [
          imageUrl: "/image/portfolio/card14.png ",
          teamImageUrl: "/image/icon/icon14.png ",
          teamName: "Ever",
+         teamText: "/image/text/text.png",
          LoveCount: 620,
          ViewCount: "2.4k"
 
@@ -115,6 +129,7 @@ const portfolios = [
          imageUrl: "/image/portfolio/card15.png ",
          teamImageUrl: "/image/icon/icon15.png ",
          teamName: "Ever",
+         teamText: "/image/text/text.png",
          LoveCount: 630,
          ViewCount: "1.9k"
 
@@ -123,6 +138,7 @@ const portfolios = [
          imageUrl: "/image/portfolio/card16.png ",
          teamImageUrl: " /image/icon/icon16.png",
          teamName: "Ever",
+         teamText: "/image/text/text.png",
          LoveCount: 300,
          ViewCount: "1.5k"
 
@@ -131,6 +147,7 @@ const portfolios = [
          imageUrl: "/image/portfolio/card17.png ",
          teamImageUrl: "/image/icon/icon17.png ",
          teamName: "Ever",
+         teamText: "/image/text/text.png",
          LoveCount: 100,
          ViewCount: "1.2k"
 
@@ -139,6 +156,7 @@ const portfolios = [
          imageUrl: "/image/portfolio/card18.png ",
          teamImageUrl: " /image/icon/icon18.png",
          teamName: "Ever",
+         teamText: "/image/text/text.png",
          LoveCount: 520,
          ViewCount: "2.1k"
 
@@ -147,6 +165,7 @@ const portfolios = [
          imageUrl: "/image/portfolio/card19.png ",
          teamImageUrl: "/image/icon/icon19.png ",
          teamName: "Ever",
+         teamText: "/image/text/text.png",
          LoveCount: 180,
          ViewCount: 890
 
@@ -155,6 +174,7 @@ const portfolios = [
          imageUrl: " /image/portfolio/card20.png",
          teamImageUrl: "/image/icon/icon20.png ",
          teamName: "Ever",
+         teamText: "/image/text/text.png",
          LoveCount: 340,
          ViewCount: "1.3k"
 
@@ -163,6 +183,7 @@ const portfolios = [
          imageUrl: "/image/portfolio/card21.png ",
          teamImageUrl: " /image/icon/icon21.png",
          teamName: "Ever",
+         teamText: "/image/text/text.png",
          LoveCount: 260,
          ViewCount: "1.3k"
 
@@ -171,6 +192,7 @@ const portfolios = [
          imageUrl: "/image/portfolio/card22.png ",
          teamImageUrl: "/image/icon/icon22.png ",
          teamName: "Ever",
+         teamText: "/image/text/text.png",
          LoveCount: 520,
          ViewCount: "1.7k"
 
@@ -179,6 +201,7 @@ const portfolios = [
          imageUrl: " /image/portfolio/card23.png",
          teamImageUrl: "/image/icon/icon23.png ",
          teamName: "Ever",
+         teamText: "/image/text/text.png",
          LoveCount: 120,
          ViewCount: 560
 
@@ -187,6 +210,7 @@ const portfolios = [
          imageUrl: "/image/portfolio/card24.png ",
          teamImageUrl: "/image/icon/icon24.png ",
          teamName: "Ever",
+         teamText: "/image/text/text.png",
          LoveCount: 400,
          ViewCount: "1.9k"
 

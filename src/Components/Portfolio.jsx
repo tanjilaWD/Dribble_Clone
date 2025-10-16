@@ -10,6 +10,7 @@ const Portfolio = () => {
                 imageUrl={Portfolio.imageUrl}
                 teamImageUrl={Portfolio.teamImageUrl}
                 teamName={Portfolio.teamName}
+                teamText={Portfolio.teamText}
                 LoveCount={Portfolio.LoveCount}
                 ViewCount={Portfolio.ViewCount}
                 
