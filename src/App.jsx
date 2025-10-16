@@ -1,3 +1,4 @@
+import CopyRight from "./Components/CopyRight";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Portfolio from "./Components/Portfolio";
@@ -11,6 +12,7 @@ const App = () => {
      <Sub_header/>
      <Portfolio/>
      <Footer/>
+     <CopyRight/>
         </div>
     );
 };
