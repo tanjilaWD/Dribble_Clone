@@ -12,7 +12,7 @@ const PortfolioCard = ({
     return (
         
        <section className="w-95 ">
-        <img src={imageUrl} alt="Portfolio Image"className="rounded"/>
+        <img src={imageUrl} alt="Portfolio Image"className="rounded hover:shadow-xl duration-300"/>
         <div className="flex justify-between py-3">
             <div className="flex gap-2 items-center">
             <img src={teamImageUrl} alt="Team Image" />
