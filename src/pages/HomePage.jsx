@@ -2,6 +2,8 @@ import CopyRight from "../Components/CopyRight";
 import Footer from "../Components/Footer";
 import Portfolio from "../Components/Portfolio";
 import Sub_header from "../Components/Sub_header";
+import UserProfilePage from './UserProfilePage';
+
 
 const HomePage = () => {
   return (
@@ -10,6 +12,7 @@ const HomePage = () => {
       <Portfolio />
       <Footer />
       <CopyRight />
+
     </div>
   );
 };
