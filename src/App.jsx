@@ -1,20 +1,16 @@
-import CopyRight from "./Components/CopyRight";
-import Footer from "./Components/Footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from "./pages/HomePage";
 import Header from "./Components/Header";
-import Portfolio from "./Components/Portfolio";
-import Sub_header from "./Components/Sub_header";
-
 
 const App = () => {
-    return (
-        <div>
-     <Header/>
-     <Sub_header/>
-     <Portfolio/>
-     <Footer/>
-     <CopyRight/>
-        </div>
-    );
+  return (
+    <Router>
+      <Header />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+      </Routes>
+    </Router>
+  );
 };
 
 export default App;
