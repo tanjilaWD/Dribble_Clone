@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
-import Header from "./Components/Header";
 import UserProfilePage from "./pages/UserProfilePage";
 import LoginPage from "./pages/LoginPage";
 import Error from "./pages/Error";
+import Dashboard from "./pages/Dashboard";
 
 const App = () => {
   const isLoggedIn = true;
@@ -19,6 +19,7 @@ const App = () => {
         />
         
          <Route path="/loginpage" element={<LoginPage />} /> 
+         <Route path="/dashboard" element={<Dashboard/>} /> 
           <Route path="*" element={<Error />} />
       </Routes>
     </Router>
