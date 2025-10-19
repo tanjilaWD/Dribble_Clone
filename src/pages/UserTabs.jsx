@@ -2,7 +2,7 @@
 import { FaChevronDown } from "react-icons/fa6";
 const UserTabs = () => {
     return (
-        <section className="w-7xl mx-auto py-20">
+        <section className="w-7xl mx-auto pt-20">
                <div className="flex items-center justify-between">
             <div>
                 <ul className="flex items-center gap-8">
