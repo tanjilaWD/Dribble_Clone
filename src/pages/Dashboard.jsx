@@ -1,6 +1,7 @@
 import { PiDotOutlineFill } from "react-icons/pi";
 import { FaRegBookmark } from "react-icons/fa";
 import { BsFillHeartFill } from "react-icons/bs";
+import Footer from "../Components/Footer";
 
 const Dashboard = () => {
     return (
@@ -23,6 +24,33 @@ const Dashboard = () => {
         </div>
         </div>
 
+        <div className="w-5xl m-auto">
+           <img src="/image/dashboard/img1.png" alt="dashboard" className="w-[1000px] h-[700px] bg-cover m-auto pt-10"/>
+        </div>
+        <div className="w-5xl m-auto">
+         <h2 className="text-center py-15 text-5xl font-extrabold">Good day to y'all! 🌼</h2>
+         <p className="text-center text-xl text-gray-600 leading-8">Proud to share my latest exploration for Crypik - Crypto Wallet Dashboard <br /> Do you have any thoughts or feedback? Please leave your comment. <br /> Hope you guys enjoy it and press "L" if you like it ❤️</p>
+
+         <img src="/image/dashboard/img2.png" alt="dashboard" className="w-[1000px] h-[700px] bg-cover m-auto pt-10"/>
+         <img src="/image/dashboard/img3.png" alt="dashboard" className="w-[1000px] h-[700px] bg-cover m-auto pt-10"/>
+          
+          <div className="flex items-center justify-center my-6">
+            <div className="flex-grow border-t border-gray-300"></div>
+             <img src="/image/dashboard/Leaf.png" alt="image" className="py-10"/>
+            <div className="flex-grow border-t border-gray-300"></div>
+          </div>
+        </div>
+
+        <div>
+            <div className="w-5xl m-auto ">
+                <div className="flex items-center justify-between py-7">
+                <h2 className="text-xl font-semibold">More by Clair</h2>
+                <button className="text-base  font-semibold text-violet-800">View All</button>
+                </div>
+            </div>
+        </div>
+
+        <Footer/>
        </section>
     );
 };
