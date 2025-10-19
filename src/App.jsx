@@ -9,7 +9,7 @@ const App = () => {
   const isLoggedIn = true;
   return (
     <Router>
-      <Header />
+      {/* <Header /> */}
       <Routes>
         <Route path="/" element={<HomePage />} />
 
