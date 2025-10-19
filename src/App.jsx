@@ -3,6 +3,7 @@ import HomePage from "./pages/HomePage";
 import Header from "./Components/Header";
 import UserProfilePage from "./pages/UserProfilePage";
 import LoginPage from "./pages/LoginPage";
+import Error from "./pages/Error";
 
 const App = () => {
   const isLoggedIn = true;
@@ -18,6 +19,7 @@ const App = () => {
         />
         
          <Route path="/loginpage" element={<LoginPage />} /> 
+          <Route path="*" element={<Error />} />
       </Routes>
     </Router>
   );
