@@ -2,6 +2,8 @@ import { PiDotOutlineFill } from "react-icons/pi";
 import { FaRegBookmark } from "react-icons/fa";
 import { BsFillHeartFill } from "react-icons/bs";
 import Footer from "../Components/Footer";
+import { FaHeart } from "react-icons/fa";
+import { FaEye } from "react-icons/fa";
 
 const Dashboard = () => {
     return (
@@ -42,12 +44,72 @@ const Dashboard = () => {
         </div>
 
         <div>
-            <div className="w-5xl m-auto ">
+            <div className="w-7xl m-auto ">
                 <div className="flex items-center justify-between py-7">
                 <h2 className="text-xl font-semibold">More by Clair</h2>
                 <button className="text-base  font-semibold text-violet-800">View All</button>
                 </div>
             </div>
+        </div>
+
+        <div className="w-7xl m-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 pb-20">
+            <div>
+                <img src="/image/dashboard/img3.png" />
+                <div className="flex items-center justify-between">
+                    <div className="flex items-center  gap-2 pt-3">
+                        <img src="/image/dashboard/Fossa.png" />
+                        <h2 className="font-semibold">Ever</h2>
+                         <img src="/image/dashboard/text.png" /> 
+                    </div>
+                    <div className="flex items-center justify-between gap-2">
+                        <div className="flex items-center gap-2">
+                         <FaHeart  className="text-gray-300 hover:text-rose-700 duration-300 cursor-pointer"/> <p className="hover:text-gray-500 duration-200 cursor-pointer">450</p>
+                        </div>
+                        <div className="flex items-center gap-2">
+                            <FaEye className="text-gray-300 hover:text-gray-800 duration-300 cursor-pointer"/> <p className="hover:text-gray-500 duration-200 cursor-pointer">1.1k</p>
+                         </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="/image/dashboard/img4.png" />
+                <div className="flex items-center justify-between">
+                    <div className="flex items-center  gap-2 pt-3">
+                        <img src="/image/dashboard/Treva.png" />
+                        <h2 className="font-semibold">Ever</h2>
+                         <img src="/image/dashboard/text.png" /> 
+                    </div>
+                    <div className="flex items-center justify-between gap-2">
+                        <div className="flex items-center gap-2">
+                         <FaHeart  className="text-gray-300 hover:text-rose-700 duration-300 cursor-pointer"/> <p className="hover:text-gray-500 duration-200 cursor-pointer">344</p>
+                        </div>
+                        <div className="flex items-center gap-2">
+                            <FaEye className="text-gray-300 hover:text-gray-800 duration-300 cursor-pointer"/> <p className="hover:text-gray-500 duration-200 cursor-pointer">1.9k</p>
+                         </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="/image/dashboard/img2.png" />
+                <div className="flex items-center justify-between">
+                    <div className="flex items-center  gap-2 pt-3">
+                        <img src="/image/dashboard/Leaf.png" />
+                        <h2 className="font-semibold">Ever</h2>
+                         <img src="/image/dashboard/text.png" /> 
+                    </div>
+                    <div className="flex items-center justify-between gap-2">
+                        <div className="flex items-center gap-2">
+                         <FaHeart  className="text-gray-300 hover:text-rose-700 duration-300 cursor-pointer"/> <p className="hover:text-gray-500 duration-200 cursor-pointer">184</p>
+                        </div>
+                        <div className="flex items-center gap-2">
+                            <FaEye className="text-gray-300 hover:text-gray-800 duration-300 cursor-pointer"/> <p className="hover:text-gray-500 duration-200 cursor-pointer">1.2k</p>
+                         </div>
+                    </div>
+                </div>
+            </div>
+
+            
+
         </div>
 
         <Footer/>
